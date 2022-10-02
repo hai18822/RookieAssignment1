@@ -1,0 +1,15 @@
+E:\Rookie6\code\c#fundamental\bin\Debug\net6.0\c#fundamental.exe
+E:\Rookie6\code\c#fundamental\bin\Debug\net6.0\c#fundamental.deps.json
+E:\Rookie6\code\c#fundamental\bin\Debug\net6.0\c#fundamental.runtimeconfig.json
+E:\Rookie6\code\c#fundamental\bin\Debug\net6.0\c#fundamental.dll
+E:\Rookie6\code\c#fundamental\bin\Debug\net6.0\c#fundamental.pdb
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.csproj.AssemblyReference.cache
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.AssemblyInfoInputs.cache
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.AssemblyInfo.cs
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.csproj.CoreCompileInputs.cache
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.dll
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\refint\c#fundamental.dll
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.pdb
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\c#fundamental.genruntimeconfig.cache
+E:\Rookie6\code\c#fundamental\obj\Debug\net6.0\ref\c#fundamental.dll
