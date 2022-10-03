@@ -6,13 +6,13 @@ public class Member
     public DateTime DOB { get; set; }
     public string PhoneNumber { get; set; }
     public string BirthPlace { get; set; }
-    private int age;
-    public int Age
+    private uint age;
+    public uint Age
     {
         get
         {
             int currentYear = DateTime.Now.Year;
-            age = currentYear - DOB.Year;
+            age = Convert.ToUInt32(currentYear - DOB.Year);
             return age;
         }
     }
@@ -30,15 +30,20 @@ public class Member
 
     public void ShowInfo()
     {
-        System.Console.WriteLine("----------------------------");
-        System.Console.WriteLine("Fullname: " + FirstName+" " + LastName);
-        System.Console.WriteLine("Gender: " + Gender);
-        System.Console.WriteLine("Date of birth: " + DOB);
-        System.Console.WriteLine("Phone number: " + PhoneNumber);
-        System.Console.WriteLine("Birth Place: " + BirthPlace);
-        System.Console.WriteLine("Age: " + Age);
-        System.Console.WriteLine("Is graduated: " + IsGraduated);
-        
+        string graduated;
+
+        if (IsGraduated)
+        {
+            graduated = "Graduated";
+        }
+        else
+        {
+            graduated = "Not graduated";
+        }
+
+        System.Console.WriteLine(LastName + " " + FirstName + " | " + "Gender: " + Gender + " | " + "DOB: " + DOB + " | " +
+        "Phone number: " + PhoneNumber + " | " + "Birth place: " + BirthPlace + " | " + "Age: " + Age + " | " + graduated);
+
     }
 
 }
