@@ -1,0 +1,15 @@
+E:\Rookie6\code\AsigmentDay3\bin\Debug\net6.0\AsigmentDay3.exe
+E:\Rookie6\code\AsigmentDay3\bin\Debug\net6.0\AsigmentDay3.deps.json
+E:\Rookie6\code\AsigmentDay3\bin\Debug\net6.0\AsigmentDay3.runtimeconfig.json
+E:\Rookie6\code\AsigmentDay3\bin\Debug\net6.0\AsigmentDay3.dll
+E:\Rookie6\code\AsigmentDay3\bin\Debug\net6.0\AsigmentDay3.pdb
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.csproj.AssemblyReference.cache
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.AssemblyInfoInputs.cache
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.AssemblyInfo.cs
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.csproj.CoreCompileInputs.cache
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.dll
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\refint\AsigmentDay3.dll
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.pdb
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\AsigmentDay3.genruntimeconfig.cache
+E:\Rookie6\code\AsigmentDay3\obj\Debug\net6.0\ref\AsigmentDay3.dll
