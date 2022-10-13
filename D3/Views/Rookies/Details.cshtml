@@ -1,0 +1,61 @@
+﻿@model PersonDetailModel
+
+@{
+    ViewData["Title"] = "Personal infomation";
+    var value = ViewData["Index"]?.ToString() ?? "";
+    var index = !string.IsNullOrEmpty(value) ? int.Parse(value) : 0;
+}
+
+<div>
+    <h1 class="display-4 mb-5 text-center">Person Information</h1>
+    <div class="row">
+        <form asp-controller="Rookies" asp-action="Details" method="post" class="col-8 offset-2">
+            <div class="mb-3">
+                <label asp-for="FirstName" class="form-label"></label>
+                <label class="form-control">@Model.FirstName</label>
+            </div>
+            <div class="mb-3">
+                <label asp-for="LastName" class="form-label"></label>
+                <label class="form-control">@Model.LastName</label>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Gender" class="form-label"></label>
+                <label class="form-control">@Model.Gender</label>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DateOfBirth" class="form-label"></label>
+                <label class="form-control">@Model.DateOfBirth</label>
+            </div>
+            <div class="mb-3">
+                <label asp-for="PhoneNumber" class="form-label"></label>
+                <label class="form-control">@Model.PhoneNumber</label>
+            </div>
+            <div class="mb-3">
+                <label asp-for="BirthPlace" class="form-label"></label>
+                <label class="form-control">@Model.BirthPlace</label>
+            </div>
+            <a class="btn btn-secondary" role="button" asp-controller="Rookies" asp-action="Index">Back to list</a>
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</a>
+        </form>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-controller="Rookies" asp-action="DeleteAndRedirectToResult" asp-route-index="@index" method="post"
+                class="col-8 offset-2">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Confirm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
